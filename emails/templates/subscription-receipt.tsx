@@ -46,7 +46,7 @@ export const SubscriptionReceipt = () => (
         <Section style={box}>
           <Row>
             <Column align="center">
-              <Img src={UMBRELLA_MAIL} height={230} alt="Stripe" />
+              <Img src={UMBRELLA_MAIL} height={230} alt="Umbrella" />
             </Column>
           </Row>
           <Text style={paragraph}>[Username],</Text>

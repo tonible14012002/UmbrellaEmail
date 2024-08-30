@@ -29,7 +29,7 @@ export const EmailTemplate = () => (
           url: FONT,
           format: "woff",
         }}
-        fontWeight={400}
+        fontWeight={300}
         fontStyle="normal"
       />
     </Head>
@@ -41,7 +41,7 @@ export const EmailTemplate = () => (
         <Section style={box}>
           <Row>
             <Column align="center">
-              <Img src={UMBRELLA_MAIL} height={230} alt="Stripe" />
+              <Img src={UMBRELLA_MAIL} height={230} alt="Umbrella" />
             </Column>
           </Row>
           <Text style={paragraph}>Dear [User],</Text>
